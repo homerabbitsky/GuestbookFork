@@ -1,3 +1,8 @@
 here are all my answers
 added a new answer!
 this is my answer to 3-17
+
+2. No.
+
+3. Repl.it will not automatically send or replicate the files from repl.it to github until the user selects the file(s), commits them with a comment, and pushes the file(s) to github.
+

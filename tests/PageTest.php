@@ -16,7 +16,7 @@ final class PageTest extends TestCase
       // clear out any old data
       $this->clearData();
       $this->client = new GuzzleHttp\Client(['cookies' => true]);
-      $this->client->get('https://guestbook.briantoone.repl.co/test.php');
+      $this->client->get('https://guestbookfork.sthornto.repl.co/test.php');
     }
 
     private function clearData(): void
@@ -40,7 +40,7 @@ final class PageTest extends TestCase
     public function testRequiredTextNoEntries(): void
     {
       // Create a client with a base URI
-      $response = $this->client->get('https://guestbook.briantoone.repl.co/');
+      $response = $this->client->get('https://guestbookfork.sthornto.repl.co/');
       $body = $response->getBody();
       // Implicitly cast the body to a string and echo it
       // echo $body;
@@ -64,7 +64,7 @@ final class PageTest extends TestCase
     {
       $this->initData();
     
-      $response = $this->client->get('https://guestbook.briantoone.repl.co/');
+      $response = $this->client->get('https://guestbookfork.sthornto.repl.co/');
       $body = $response->getBody();
       // Implicitly cast the body to a string and echo it
       //echo $body;
@@ -91,7 +91,7 @@ final class PageTest extends TestCase
     {
       // Create a client with a base URI
       $response = $this->client->request('POST', 
-        'https://guestbook.briantoone.repl.co/process.php', [
+        'https://guestbookfork.sthornto.repl.co/process.php', [
         'allow_redirects' => false,
         'form_params' => [
           'name' => 'Test user',
@@ -104,7 +104,7 @@ final class PageTest extends TestCase
       // Verify that the response redirects us to the index page displaying a message
       $this->clearData();
       $response = $this->client->request('POST', 
-        'https://guestbook.briantoone.repl.co/process.php?t=1', [
+        'https://guestbookfork.sthornto.repl.co/process.php', [
         'form_params' => [
           'name' => 'Test user',
           'comment' => 'this is a test comment',
@@ -115,7 +115,7 @@ final class PageTest extends TestCase
     }
 
     public function testDelete() {
-      $response = $this->client->get('https://guestbook.briantoone.repl.co/delete.php');
+      $response = $this->client->get('https://guestbookfork.sthornto.repl.co/delete.php');
       $body = $response->getBody();
       $stringBody = (string) $body;
       // this makes sure the delete page itself returns nothing
@@ -125,7 +125,7 @@ final class PageTest extends TestCase
       $this->assertEquals("", file_get_contents($this->db));
 
       // make sure that the index page is back to saying there are no entries
-      $response = $this->client->get('https://guestbook.briantoone.repl.co/');
+      $response = $this->client->get('https://guestbookfork.sthornto.repl.co/');
       $body = $response->getBody();
       $stringBody = (string) $body;
       $this->assertStringContainsString("There are no current entries", $stringBody);
