@@ -6,7 +6,7 @@ this is my answer to 3-17
 
 3. Repl.it will not automatically send or replicate the files from repl.it to github until the user selects the file(s), commits them with a comment, and pushes the file(s) to github.
 
-<<<<<<< HEAD
+
 
 4. done
 5. done
@@ -40,6 +40,5 @@ Head refers to repl.it and it is what written within file(s)/data.
 16. done
 
 17. I have two branches. One is called main and another is called webdev. 
-=======
+
 this is the very last line.
->>>>>>> origin/webdev
