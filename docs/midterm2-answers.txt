@@ -6,11 +6,15 @@ this is my answer to 3-17
 
 3. Repl.it will not automatically send or replicate the files from repl.it to github until the user selects the file(s), commits them with a comment, and pushes the file(s) to github.
 
+
+
 7. No.
 
 8. To get the changes from github to repl.it, the user must go to the version control button on the side (it is the fork button). Once on this new tab, there should be an orange button that says pull with an arrow. Click on it. Now you have pulled from gitub and both sites match.
 
 this is something different
 
-12. "1 commit behind" means that the branchs are not in sync. One branch has code the other does not and the branch has commits this one doesn't. aka. one branch has not committed changes to sync with the other branch(s).
+12. "1 commit behind" means that the branchs are not in sync. One branch has code the other does not and the branch has commits this one doesn't. aka. one branch has not committed changes to sync with the other branch(s) 
 
+13. A pop-up occurs and displays two buttons.
+  One button says
