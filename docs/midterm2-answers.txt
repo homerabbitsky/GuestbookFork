@@ -7,6 +7,9 @@ this is my answer to 3-17
 3. Repl.it will not automatically send or replicate the files from repl.it to github until the user selects the file(s), commits them with a comment, and pushes the file(s) to github.
 
 
+4. done
+5. done
+6. done
 
 7. No.
 
@@ -14,7 +17,21 @@ this is my answer to 3-17
 
 this is something different
 
+9. done
+10. done
+11. done
+
 12. "1 commit behind" means that the branchs are not in sync. One branch has code the other does not and the branch has commits this one doesn't. aka. one branch has not committed changes to sync with the other branch(s) 
 
 13. A pop-up occurs and displays two buttons.
-  One button says
+  One button says keep version on repl.it.
+  One button says keep version on github.
+
+14. I have now pulled from github.
+When I chose to pull from github, it gives me conflicting changes but does NOT show my code in repl.it.
+It shows One button says keep version on repl.it. One button says keep version on github.
+
+Origin refers to remote branch on repl.it and the branches that break off from origin is the main branch from github.
+
+Head refers to repl.it and it is what written within file(s)/data.
+
