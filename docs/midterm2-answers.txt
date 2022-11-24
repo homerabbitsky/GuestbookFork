@@ -41,4 +41,18 @@ Head refers to repl.it and it is what written within file(s)/data.
 
 17. I have two branches. One is called main and another is called webdev. 
 
+
 this is the very last line.
+
+21. When I pulled from github into repl.it, it pulled all files from the webdev branch and screenshots.
+
+22. PHP is a server-side scripting language.
+
+23. CSS allows you to specify and organize all style information for the way your page looks.
+
+24. HTML holds all the static content for your page and is ultimately rendered by the web browser.
+
+25. JavaScript allows you to add code that is executed when the user performs some action (i.e., moving the mouse around on the page, clicking on text, etc...).
+
+26. PHP allows you to dynamically generate content based on data stored on the server.
+
