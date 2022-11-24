@@ -41,6 +41,7 @@ Head refers to repl.it and it is what written within file(s)/data.
 
 17. I have two branches. One is called main and another is called webdev. 
 
+<<<<<<< HEAD
 
 this is the very last line.
 
@@ -56,3 +57,6 @@ this is the very last line.
 
 26. PHP allows you to dynamically generate content based on data stored on the server.
 
+=======
+this is the very last line.
+>>>>>>> origin/webdev
