@@ -35,10 +35,3 @@ It shows One button says keep version on repl.it. One button says keep version o
 Origin refers to remote branch on repl.it and the branches that break off from origin is the main branch from github.
 
 Head refers to repl.it and it is what written within file(s)/data.
-
-15. done
-16. done
-
-17. I have two branches. One is called main and another is called webdev. 
-
-this is the very last line.
